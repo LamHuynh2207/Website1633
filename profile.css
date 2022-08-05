@@ -1,0 +1,96 @@
+:root {
+	--main-text-font: Arial, Helvetica, sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #93B5C6;
+}
+p {
+	font-size: 18px;
+	color: #766161;
+}
+a:hover, a:hover p {
+	color: #818753;
+}
+.container {
+	width: 1200px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.hero {
+	height: 100%;
+	width: 100%;
+	background-image: url(images/banner_1.png);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.form-box {
+	width: 380px;
+	height: 400px;
+	position: relative;
+	margin: 6% auto;
+	background: #ffffff;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.button-box {
+	width: 220px;
+	margin: 35px auto 0px;
+	position: relative;
+	box-shadow: 0 0 20px 9px #FFE3E3;
+	border-radius: 30px;
+}
+
+.toggle-btn {
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+}
+
+.input-group {
+	top: 140px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+    margin-left: 50px;
+}
+.input-field {
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn {
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #93B5C6, #E4D8DC);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	margin-top: 30px;
+}
